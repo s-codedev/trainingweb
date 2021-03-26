@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Nunito:wght@300;400;600;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+}
+
+.text-color {
+    color: #EF8062;
+}
+
+.service i {
+    font-size: 6rem;
+}
+
+
+/* navbar */
+
+.navbar {
+    background: #366F90 !important;
+    box-shadow: 0px 6px 9px 2px rgba(0, 0, 0, 0.25);
+}
+
+.navbar .navbar-brand {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    color: #ACC9C5;
+}
+
+.navbar .navbar-brand:hover {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    transition: transform .6s fade;
+    color: #ffffff;
+}
+
+.navbar .nav-item .nav-link {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3em;
+    color: #ACC9C5;
+}
+
+.navbar .nav-item .nav-link:hover {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3em;
+    font-weight: 600;
+    transition: transform .6s fade;
+    color: #ffffff;
+}
+
+
+/* content */
+
+section {
+    padding-top: 7em;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.btn-custom {
+    background-color: #366F90;
+    color: #ACC9C5;
+}
+
+.btn-custom:hover {
+    background-color: #ffffff;
+    color: #EF8062;
+    border: 1px solid #366F90;
+}
+
+.jumbotron {
+    background: rgba(146, 165, 230, 0.70);
+    height: 35em;
+}
+
+.jumbotron img {
+    box-shadow: 2px 6px 9px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero-text {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: auto;
+    padding: auto;
+}
+
+.about,
+.gallery {
+    padding-bottom: 3em;
+}
+
+.service,
+.contact {
+    background-color: rgba(146, 165, 230, 0.54);
+    padding-bottom: 3em;
+}
+
+footer {
+    background: #366F90 !important;
+    box-shadow: 0px -6px 9px 2px rgba(0, 0, 0, 0.25);
+}
